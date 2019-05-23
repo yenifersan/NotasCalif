@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotasCalif</string>
+    <string name="login_email">login_email</string>
+    <string name="login_password">login_password</string>
+    <string name="login_ingresar">login_ingresar</string>
+    <string name="login_registrar">login_registrar</string>
+</resources>
