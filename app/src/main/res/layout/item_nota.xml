@@ -14,43 +14,85 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorYellow"
         android:padding="10dp">
 
         <TextView
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Fullname"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:text="Fullname"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/date_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:textSize="18sp"
-            android:text="fecha"/>
+            android:text="fecha"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/content_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_width="219dp"
+            android:layout_height="54dp"
             android:layout_below="@+id/title_text"
+            android:layout_marginTop="15dp"
             android:layout_marginBottom="8dp"
-            android:textSize="16sp"
-            android:text="Detalle"/>
+            android:text="Detalle"
+            android:textSize="16sp" />
 
-        <Button
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/content_text"
+            android:layout_alignBottom="@+id/content_text"
             android:layout_alignParentEnd="true"
-            android:background="@android:color/white"
-            android:drawablePadding="10dp"
-            android:text="Favoritos"
-            />
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="-3dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/content_text"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="-5dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/content_text"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="-5dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/content_text"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="-3dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/content_text"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="-5dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
 
     </RelativeLayout>
 
